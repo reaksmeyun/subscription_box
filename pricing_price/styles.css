@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #000000;
+    font-family: "Roboto", serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.sign-in {
+    color:#ffffff;
+}
+
+.hero {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Roboto", serif;
+}
+.hero h1 {
+    font-size: 32px;
+}
+.hero p {
+   color: #d7d7d7;
+}
+.bill {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.billing {
+    width: 20%;
+    margin: auto;
+    background-color: rgba(52, 52, 52, 0.8);
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.billing .toggle {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.billing .toggle:hover {
+    background-color: rgba(242, 242, 242, 0.5);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px; /* Fixed the typo from "10pz" to "10px" */
+    transition: all 0.3s ease; /* Smooth transition */
+    border-radius: 8px; /* Keep corners rounded */
+}
+
+.subscribe {
+    /* background-color: #ffffff; */
+    display: flex;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    color: #ffffff;
+    /* justify-content: space-between; */
+}
+.subscribe .sub {
+    background-color: rgb(64, 64, 64, 0.5);
+    margin: auto;
+    font-size: small;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    transition: background-color 0.2s ease-in-out;
+   
+}
+
+.sub:hover {
+    border: 1px solid red;
+    transform: scale(1.05,1.05);
+    background-color: rgb(48, 47, 47,0.5);
+   
+    
+}
+.sub p{
+    font-weight: 50;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn-sub {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+}
